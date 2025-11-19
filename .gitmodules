@@ -1,0 +1,3 @@
+[submodule "libs/RoboVerse/libs/lerobot"]
+	path = libs/RoboVerse/libs/lerobot
+	url = https://github.com/huggingface/lerobot.git

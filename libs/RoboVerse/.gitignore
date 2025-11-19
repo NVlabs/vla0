@@ -1,0 +1,44 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Files
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pth
+*.json
+*.jsonl
+*.hdf5
+
+
+wandb/
+slurm_outputs/
+tmp/
+build/
+
+data/
+# ignore symbolic links
+data

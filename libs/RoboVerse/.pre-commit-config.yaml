@@ -1,0 +1,14 @@
+repos:
+  - repo: local
+    hooks:
+      - id: format-code
+        name: Run Makefile format
+        entry: make format
+        language: system
+        pass_filenames: false
+
+      - id: lint-code
+        name: Run Makefile lint
+        entry: make lint
+        language: system
+        pass_filenames: false

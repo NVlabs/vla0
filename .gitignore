@@ -1,0 +1,41 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ignore symbolic links
+runs
+slurm/slurm_outputs
+
+runs/
+slurm/slurm_outputs/
+
+# repository specific files
+logs/*.log
+docker/*.sqsh
+
+# libraries to ignore
+libs/egl_probe/
+libs/LIBERO/
+.cursorignore
+.hf_token
+slurm/libero_eval/

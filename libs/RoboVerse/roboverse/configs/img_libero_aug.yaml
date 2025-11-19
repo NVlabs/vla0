@@ -1,0 +1,18 @@
+# same as img_libero.yaml, except that it add image augmentations
+unifier: image
+history: 1
+horizon: 8
+datasets: [lerobot]
+
+LEROBOT:
+  repo_id: physical-intelligence/libero
+  action_key: actions
+  state_key: state
+
+IMAGE:
+  crop_img: 1.0
+  brightness_aug: 0.2
+  contrast_aug: 0.2
+  saturation_aug: 0.2
+  hue_aug: 0.05
+  return_ori_act: True
